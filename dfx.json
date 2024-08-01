@@ -1,0 +1,16 @@
+{
+  "canisters": {
+    "my_voting_project": {
+      "main": "src/my_voting_project/main.mo",
+      "type": "motoko"
+    },
+    "my_voting_project_assets": {
+      "dependencies": ["my_voting_project"],
+      "frontend": {
+        "entrypoint": "src/my_voting_project_assets/src/index.html"
+      },
+      "source": ["src/my_voting_project_assets/assets"]
+    }
+  }
+}
+
